@@ -1,3 +1,5 @@
+/* Estilos pagina principal */
+
 html {
     font-family: Arial;
     background: linear-gradient(60deg,#333,#656565 );
@@ -72,11 +74,17 @@ footer ul {
 }
 
 .main {
-    width: 65%;
     margin: 0 auto;
+}
+
+.blog {
+    width: 80%;
+    margin: 10px auto;
     justify-content: center;
     background-color: #EEE;
     border-radius: 20px;
+    padding: 1px 0;
+    border-style: inset;
 }
 
 .tittle {
@@ -144,10 +152,13 @@ footer ul {
 .tittle-sinopsis {
     font-size: 40px;
     padding-left: 10px;
-    border-left: solid 10px #A33;
-}
+    border-left: solid 10}
 
-main {
+
+
+/* Estilos pagina contactos */
+
+.main-contacto {
     max-width: 900px;
     margin: 30px auto; 
     padding: 20px;
@@ -155,7 +166,7 @@ main {
     border-radius: 8px;
 }
 
-main h2 {
+.main-contacto h2 {
     color: white; 
     text-align: center;
 }
@@ -189,7 +200,7 @@ main h2 {
     color: #111;
 }
 
-form {
+.form-contactos {
     max-width: 500px;
     margin: 30px auto;
     padding: 20px;
@@ -231,7 +242,10 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #8bbf00;
+
 }
+
+/* Estilos pagina quienes somos */
 
 .quienes-somos {
     width: 80%;
