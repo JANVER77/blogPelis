@@ -156,7 +156,12 @@ footer ul {
 .tittle-sinopsis {
     font-size: 40px;
     padding-left: 10px;
-    border-left: solid 10px #A44}
+    border-left: solid 10px #A44
+}
+
+.sinopsis-text {
+    text-align: justify;
+}
 
 
 
