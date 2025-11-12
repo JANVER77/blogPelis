@@ -2,9 +2,11 @@ html {
     font-family: Arial;
     background: linear-gradient(60deg,#333,#656565 );
 }
+
 body{
     margin: 0;
 }
+
 header {
     background: linear-gradient(45deg, #000, #460000, #000);
     color: white;
@@ -17,6 +19,7 @@ header {
     top: 0;
     z-index: 1000;
 }
+
 nav ul {
     list-style: none;
     display: flex;
@@ -24,6 +27,7 @@ nav ul {
     margin: 0;
     padding: 0;
 }
+
 nav a {
     font-size: 20px;
     color: white;
@@ -31,13 +35,16 @@ nav a {
     font-weight: lighter;
     transition: color 0.3s;
 }
+
 nav a:hover {
     color: yellow;
     font-weight: bold;
 }
+
 header ul {
     color: aliceblue;
 }
+
 footer {
     background: linear-gradient(45deg, #000, #460000, #000);
     color: #ecf0f1;
@@ -47,18 +54,23 @@ footer {
     align-items: center;
     flex-wrap: wrap;
 }
+
 footer h3 {
     margin: 0;
 }
+
 footer>div:nth-child(2) {
     margin: 0;
 }
+
 footer ul li{
     white-space: nowrap;
 }
+
 footer ul {
     justify-content: center;
 }
+
 .main {
     width: 65%;
     margin: 0 auto;
@@ -66,6 +78,7 @@ footer ul {
     background-color: #EEE;
     border-radius: 20px;
 }
+
 .tittle {
     font-size: 80px;
     color: #222;
@@ -74,33 +87,40 @@ footer ul {
     margin-top: 60px;
     margin-bottom: 60px;
 }
+
 .nav-pelis {
     margin-top: 40px;
     margin-bottom: 80px;
 }
+
 .all-pelis {
     display:flex;
     flex-wrap: wrap;
     justify-content:left;
     margin-left: 5%;
 }
+
 .image {
     width: 300px;
     border-radius: 15px;
     border: 2px solid #460000;
 }
+
 .image:hover{
     box-shadow: 0 0 20px 7px #460000;
 }
+
 .item-info {
     list-style: none;
 }
+
 .menu-pelis {
     display: flex;
     flex-wrap: wrap;
     margin: 30px;
     justify-content: space-around;
 }
+
 .item {
     background-color: #333;
     color: #EEE;
@@ -111,19 +131,22 @@ footer ul {
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
+
 .item:hover {
     background-color: #EEE;
 }
+
 .sinopsis {
-    margin:  5%;
+    margin: 5%;
     width: 50%;
 }
+
 .tittle-sinopsis {
     font-size: 40px;
     padding-left: 10px;
-    border-left: solid 10px;
-    border-left-color: #A33;    
+    border-left: solid 10px #A33;
 }
+
 main {
     max-width: 900px;
     margin: 30px auto; 
@@ -131,16 +154,19 @@ main {
     background-color: #1a1a1a; 
     border-radius: 8px;
 }
+
 main h2 {
     color: white; 
     text-align: center;
 }
+
 .canalesDirectos {
     display: flex;
     justify-content: space-around;
     padding: 20px 0;
     margin-bottom: 30px
 }
+
 .redes a {
     display: block;
     padding: 8px;
@@ -153,13 +179,16 @@ main h2 {
     transition: background-color 0.3s;
     list-style: none;
 }
+
 .redes ul{
     list-style: none;
 }
+
 .redes a:hover {
     background-color: yellowgreen; 
     color: #111;
 }
+
 form {
     max-width: 500px;
     margin: 30px auto;
@@ -169,10 +198,12 @@ form {
     border-radius: 6px;
     color: #ccc;
 }
+
 label {
     display: block; 
     margin-bottom: 5px;
 }
+
 input[type="text"],
 input[type="email"],
 textarea {
@@ -185,6 +216,7 @@ textarea {
     background-color: #2a2a2a;
     color: white;
 }
+
 input[type="submit"] {
     background-color: yellowgreen;
     color: #111;
@@ -196,9 +228,11 @@ input[type="submit"] {
     width: 100%;
     transition: background-color 0.3s;
 }
+
 input[type="submit"]:hover {
     background-color: #8bbf00;
 }
+
 .quienes-somos {
     width: 80%;
     margin: 50px auto;
@@ -207,18 +241,21 @@ input[type="submit"]:hover {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+
 .quienes-somos h2 {
     text-align: center;
     font-size: 40px;
     color: #A33;
     margin-bottom: 20px;
 }
+
 .quienes-somos p {
     color: #333;
     line-height: 1.6;
     margin-bottom: 20px;
     font-size: 18px;
 }
+
 .equipo {
     display: flex;
     flex-wrap: wrap;
@@ -226,6 +263,7 @@ input[type="submit"]:hover {
     gap: 25px;
     margin-top: 40px;
 }
+
 .miembro {
     background-color: #f9f9f9;
     border-radius: 10px;
@@ -234,16 +272,19 @@ input[type="submit"]:hover {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
 }
+
 .miembro:hover {
     transform: scale(1.05);
     background-color: #a87f7f;
     box-shadow: 0 4px 10px rgba(245, 2, 2, 0.938); 
     cursor: pointer;
 }
+
 .miembro h3 {
     color: #A33;
     margin-bottom: 10px;
 }
+
 .miembro p {
     font-size: 15px;
     color: #555;
