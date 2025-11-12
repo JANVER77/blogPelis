@@ -1,7 +1,10 @@
 html {
     font-family: Arial;
+    background: linear-gradient(45deg, );
 }
-
+body{
+    margin: 0;
+}
 header {
     background: linear-gradient(45deg, #000, #460000, #000);
     color: white;
@@ -51,6 +54,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+ 
 
 }
 
