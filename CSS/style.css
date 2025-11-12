@@ -1,0 +1,70 @@
+.main {
+    width: 65%;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: #EEE;
+}
+
+.tittle {
+    font-size: 80px;
+    color: #222;
+    text-shadow: 2px 5px 8px rgba(120, 0, 0, 0.6);
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+.nav-pelis {
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+}
+
+.all-pelis {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    margin-left: 5%;
+}
+
+.image {
+    width: 300px;;
+}
+.item-info {
+    list-style: none;
+}
+
+.menu-pelis {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    justify-content: space-around;
+}
+
+.item {
+    background-color: #333;
+    color: #EEE;
+    list-style: none;
+    padding: 15px 30px;
+    border: solid 0.5px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: #EEE;
+}
+
+.sinopsis {
+    margin:  5%;
+    width: 50%;
+}
+.tittle-sinopsis {
+    font-size: 40px;
+    padding-left: 10px;
+    border-left: solid 10px;
+    border-left-color: #A33;    
+}
+
