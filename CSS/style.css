@@ -137,3 +137,88 @@ footer ul {
     border-left-color: #A33;    
 }
 
+main {
+    max-width: 900px;
+    margin: 30px auto; 
+    padding: 20px;
+    background-color: #1a1a1a; 
+    border-radius: 8px;
+}
+
+main h2 {
+    color: white; 
+    text-align: center;
+}
+
+.canalesDirectos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin-bottom: 30px
+}
+
+.redes a {
+    display: block;
+    padding: 8px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+    background-color: #460000; 
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s;
+    list-style: none;
+}
+
+.redes ul{
+    list-style: none;
+}
+
+.redes a:hover {
+    background-color: yellowgreen; 
+    color: #111;
+}
+
+form {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #111; 
+    border: 1px solid #460000;
+    border-radius: 6px;
+    color: #ccc;
+}
+
+label {
+    display: block; 
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #460000;
+    border-radius: 3px;
+    box-sizing: border-box; 
+    background-color: #2a2a2a;
+    color: white;
+}
+
+input[type="submit"] {
+    background-color: yellowgreen;
+    color: #111;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #8bbf00;
+}
