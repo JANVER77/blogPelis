@@ -69,13 +69,16 @@ footer ul li{
     white-space: nowrap;
 }
 footer ul {
+
     justify-content: center;
 }
 .main {
     width: 65%;
-    margin: 0 auto;
+    margin: 0px auto;
+    padding-bottom: 10px;
     justify-content: center;
     background-color: #EEE;
+    
 }
 
 .tittle {
@@ -122,12 +125,12 @@ footer ul {
     padding: 15px 30px;
     border: solid 0.5px;
     border-radius: 20px;
-    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
 
 .item:hover {
-    background-color: #EEE;
+    background-color: #A33;
 }
 
 .sinopsis {
@@ -141,3 +144,7 @@ footer ul {
     border-left-color: #A33;    
 }
 
+.text-sinopsis {
+    text-align: justify;
+    font-size: 1em;
+}
