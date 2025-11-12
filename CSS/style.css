@@ -1,3 +1,6 @@
+/* importar fuente google font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 /* Estilos pagina principal */
 
 html {
@@ -88,7 +91,8 @@ footer ul {
 }
 
 .tittle {
-    font-size: 70px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 7rem;
     color: #222;
     text-shadow: 2px 5px 8px rgba(120, 0, 0, 0.6);
     text-align: center;
@@ -141,7 +145,7 @@ footer ul {
 }
 
 .item:hover {
-    background-color: #EEE;
+    background-color: #E44;
 }
 
 .sinopsis {
@@ -152,7 +156,7 @@ footer ul {
 .tittle-sinopsis {
     font-size: 40px;
     padding-left: 10px;
-    border-left: solid 10}
+    border-left: solid 10px #A44}
 
 
 
