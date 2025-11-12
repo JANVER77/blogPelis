@@ -137,3 +137,60 @@ footer ul {
     border-left-color: #A33;    
 }
 
+.quienes-somos {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.quienes-somos h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #A33;
+    margin-bottom: 20px;
+}
+
+.quienes-somos p {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.equipo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.miembro {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.miembro:hover {
+     transform: scale(1.05);
+    background-color: #a87f7f;
+    box-shadow: 0 4px 10px rgba(245, 2, 2, 0.938); 
+    cursor: pointer;
+}
+
+.miembro h3 {
+    color: #A33;
+    margin-bottom: 10px;
+}
+
+.miembro p {
+    font-size: 15px;
+    color: #555;
+}
+
