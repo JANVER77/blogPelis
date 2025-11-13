@@ -131,6 +131,15 @@ footer ul {
     border: 2px solid #460000;
 }
 
+.grown-image {
+    transform: scale(1.5) rotate(360deg);
+    transition: transform 1s ease-in-out;    
+}
+
+.image-show{
+
+}
+
 .image:hover{
     box-shadow: 0 0 20px 7px #460000;
 }
