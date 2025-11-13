@@ -1,10 +1,17 @@
+/* importar fuente google font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Estilos pagina principal */
+
 html {
     font-family: Arial;
-    background: linear-gradient(45deg, );
+    background: linear-gradient(60deg,#333,#656565 );
 }
+
 body{
     margin: 0;
 }
+
 header {
     background: linear-gradient(45deg, #000, #460000, #000);
     color: white;
@@ -35,16 +42,13 @@ nav a {
 }
 
 nav a:hover {
-    color: yellowgreen;
+    color: yellow;
     font-weight: bold;
-
 }
-
 
 header ul {
     color: aliceblue;
 }
-
 
 footer {
     background: linear-gradient(45deg, #000, #460000, #000);
@@ -54,7 +58,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
- 
 
 }
 
@@ -65,36 +68,54 @@ footer h3 {
 footer>div:nth-child(2) {
     margin: 0;
 }
+
 footer ul li{
     white-space: nowrap;
 }
+
 footer ul {
 
     justify-content: center;
 }
+
 .main {
-    width: 65%;
-    margin: 0px auto;
-    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+.blog {
+    width: 50%;
+    margin: 10px auto;
     justify-content: center;
-    background-color: #EEE;
-    
+    background-color: #DDD;
+    border-radius: 20px;
+    padding: 1px 0;
+    border-style: inset;
+}
+
+.peliculas {
+    margin-left: 5%;
 }
 
 .tittle {
-    font-size: 80px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 7rem;
     color: #222;
     text-shadow: 2px 5px 8px rgba(120, 0, 0, 0.6);
     text-align: center;
     margin-top: 60px;
     margin-bottom: 60px;
+}
 
+.menu-pelis {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    justify-content: space-evenly;
 }
 
 .nav-pelis {
     margin-top: 40px;
     margin-bottom: 80px;
-
 }
 
 .all-pelis {
@@ -105,17 +126,17 @@ footer ul {
 }
 
 .image {
-    width: 300px;;
-}
-.item-info {
-    list-style: none;
+    width: 300px;
+    border-radius: 15px;
+    border: 2px solid #460000;
 }
 
-.menu-pelis {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 30px;
-    justify-content: space-around;
+.image:hover{
+    box-shadow: 0 0 20px 7px #460000;
+}
+
+.item-info {
+    list-style: none;
 }
 
 .item {
@@ -130,21 +151,168 @@ footer ul {
 }
 
 .item:hover {
-    background-color: #A33;
+    background-color: #E44;
 }
 
 .sinopsis {
-    margin:  5%;
+    margin: 5%;
     width: 50%;
 }
+
 .tittle-sinopsis {
     font-size: 40px;
     padding-left: 10px;
-    border-left: solid 10px;
-    border-left-color: #A33;    
+    border-left: solid 10px #A44
 }
 
-.text-sinopsis {
+.sinopsis-text {
     text-align: justify;
-    font-size: 1em;
+}
+
+/* Estilos pagina contactos */
+
+.main-contacto {
+    max-width: 900px;
+    margin: 30px auto; 
+    padding: 20px;
+    background-color: #1a1a1a; 
+    border-radius: 8px;
+}
+
+.main-contacto h2 {
+    color: white; 
+    text-align: center;
+}
+
+.canalesDirectos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin-bottom: 30px
+}
+
+.redes a {
+    display: block;
+    padding: 8px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+    background-color: #460000; 
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s;
+    list-style: none;
+}
+
+.redes ul{
+    list-style: none;
+}
+
+.redes a:hover {
+    background-color: yellowgreen; 
+    color: #111;
+}
+
+.form-contactos {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #111; 
+    border: 1px solid #460000;
+    border-radius: 6px;
+    color: #ccc;
+}
+
+label {
+    display: block; 
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #460000;
+    border-radius: 3px;
+    box-sizing: border-box; 
+    background-color: #2a2a2a;
+    color: white;
+}
+
+input[type="submit"] {
+    background-color: yellowgreen;
+    color: #111;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #8bbf00;
+
+}
+
+/* Estilos pagina quienes somos */
+
+.quienes-somos {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.quienes-somos h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #A33;
+    margin-bottom: 20px;
+}
+
+.quienes-somos p {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.equipo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.miembro {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.miembro:hover {
+    transform: scale(1.05);
+    background-color: #a87f7f;
+    box-shadow: 0 4px 10px rgba(245, 2, 2, 0.938); 
+    cursor: pointer;
+}
+
+.miembro h3 {
+    color: #A33;
+    margin-bottom: 10px;
+}
+
+.miembro p {
+    font-size: 15px;
+    color: #555;
 }
