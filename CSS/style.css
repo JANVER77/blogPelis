@@ -58,6 +58,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+
 }
 
 footer h3 {
@@ -81,13 +82,17 @@ footer ul {
 }
 
 .blog {
-    width: 60%;
+    width: 50%;
     margin: 10px auto;
     justify-content: center;
     background-color: #DDD;
     border-radius: 20px;
     padding: 1px 0;
     border-style: inset;
+}
+
+.peliculas {
+    margin-left: 5%;
 }
 
 .tittle {
@@ -98,6 +103,13 @@ footer ul {
     text-align: center;
     margin-top: 60px;
     margin-bottom: 60px;
+}
+
+.menu-pelis {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    justify-content: space-evenly;
 }
 
 .nav-pelis {
@@ -124,13 +136,6 @@ footer ul {
 
 .item-info {
     list-style: none;
-}
-
-.menu-pelis {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 30px;
-    justify-content: space-around;
 }
 
 .item {
